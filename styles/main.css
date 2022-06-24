@@ -361,12 +361,12 @@ body{
 }
 
 .footer-content{
+  max-width: 900px;
   display: flex;
   padding-top: 40px;
 }
 
 .content-text{
-  width: 200px;
   margin-left: 200px;
 }
 
@@ -375,12 +375,10 @@ body{
 }
 
 .aloqa-big {
-  margin-left: 300px;
 }
 
 .content-text-2{
   display: none;
-  width: 200px;
 }
 
 
@@ -443,6 +441,12 @@ body{
   .end-footer{
     background-color: #012f34;
   }
+
+  .end-footer{
+    display: flex;
+    background-color: #012f34;
+  }
+}
   
   .list-2{
     list-style: none;
@@ -450,7 +454,7 @@ body{
     padding: 0px;
   }
   .none-div{
-    margin-left: 200px;
+    margin-left: 50px;
   }
   
   .item-2{
@@ -688,6 +692,13 @@ body{
   }
   
 } 
+
+@media only screen and (max-width: 890px){
+  .footer-content{
+    max-width: 400px;
+  }
+
+}
 
 @media only screen and (max-width: 1160px) {
   .intro-inner {
